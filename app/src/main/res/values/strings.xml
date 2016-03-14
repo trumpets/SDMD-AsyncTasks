@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AsyncTasks</string>
+    <string name="download">Download</string>
+    <string name="err_no_internet">No Internet!</string>
+</resources>
