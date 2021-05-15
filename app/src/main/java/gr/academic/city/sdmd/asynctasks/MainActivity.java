@@ -21,7 +21,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String IMAGE_URL = "http://vignette3.wikia.nocookie.net/appium/images/a/a3/Tux_toilet.png/revision/latest?cb=20130816172512";
+    private static final String IMAGE_URL = "https://yt3.ggpht.com/ytc/AAUvwnix1W5yfYHFVUru51TRhdeSyFkMhglTrBp_IYP1qA=s900-c-k-c0x00ffffff-no-rj";
 
     private static final String LOG_TAG = "AsyncTasks-MainActivity";
 
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 return;
             }
 
-            ImageView imageView = (ImageView) findViewById(R.id.img_downloaded);
+            ImageView imageView = findViewById(R.id.img_downloaded);
             imageView.setImageBitmap(result);
         }
     }
